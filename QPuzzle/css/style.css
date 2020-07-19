@@ -1,0 +1,28 @@
+* {
+  box-sizing: content-box;
+}
+html, body {
+  margin: 0;
+  /*
+  font-size: 0;
+  */
+}
+
+h1 {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.d-none {
+  display: none;
+}
+
+.you_did_it {
+  z-index: 1;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  font-size: 4rem;
+}
